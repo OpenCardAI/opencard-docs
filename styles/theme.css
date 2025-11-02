@@ -1,0 +1,72 @@
+/* OpenCard Black & White Theme */
+
+/* Darker grays in light mode - target Nextra's gray classes */
+.nx-text-gray-500 {
+  color: #525252 !important;
+}
+
+.nx-text-gray-600 {
+  color: #404040 !important;
+}
+
+.nx-text-gray-700 {
+  color: #262626 !important;
+}
+
+/* Remove navbar border */
+nav.nextra-nav-container,
+.nextra-nav-container {
+  border-bottom: none !important;
+}
+
+/* Sidebar: Active page gets black background + white text */
+/* Target Nextra 2's exact active state classes */
+a.nx-bg-primary-100.nx-text-primary-800 {
+  background-color: black !important;
+  color: white !important;
+}
+
+.dark a.nx-bg-primary-100.nx-text-primary-800 {
+  background-color: white !important;
+  color: black !important;
+}
+
+/* Header anchors: Plain black text, no background */
+.nextra-content h1 a.subheading-anchor,
+.nextra-content h2 a.subheading-anchor,
+.nextra-content h3 a.subheading-anchor,
+.nextra-content h4 a.subheading-anchor,
+.nextra-content h5 a.subheading-anchor,
+.nextra-content h6 a.subheading-anchor {
+  color: black;
+  background: none !important;
+  text-decoration: none;
+}
+
+.dark .nextra-content h1 a.subheading-anchor,
+.dark .nextra-content h2 a.subheading-anchor,
+.dark .nextra-content h3 a.subheading-anchor,
+.dark .nextra-content h4 a.subheading-anchor,
+.dark .nextra-content h5 a.subheading-anchor,
+.dark .nextra-content h6 a.subheading-anchor {
+  color: white;
+}
+
+/* Content links: Black in light mode, white in dark mode, bold */
+.nextra-content a:not(.subheading-anchor) {
+  color: black !important;
+  font-weight: 600;
+}
+
+.dark .nextra-content a:not(.subheading-anchor) {
+  color: white !important;
+}
+
+/* Table of Contents: Active item (primary-600 class) text color */
+.nextra-toc a.nx-text-primary-600 {
+  color: black !important;
+}
+
+.dark .nextra-toc a.nx-text-primary-600 {
+  color: white !important;
+}

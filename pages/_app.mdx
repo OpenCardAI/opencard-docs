@@ -1,0 +1,16 @@
+import { GeistSans } from 'geist/font/sans'
+import '../styles/theme.css'
+
+export default function Nextra({ Component, pageProps }) {
+  return (
+    <>
+      <style jsx global>{`
+        body {
+          font-family: ${GeistSans.style.fontFamily};
+          font-size: 14px;
+        }
+      `}</style>
+      <Component {...pageProps} />
+    </>
+  )
+}
