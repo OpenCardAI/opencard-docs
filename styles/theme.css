@@ -1,18 +1,5 @@
 /* OpenCard Black & White Theme */
 
-/* Darker grays in light mode - target Nextra's gray classes */
-.nx-text-gray-500 {
-  color: #525252 !important;
-}
-
-.nx-text-gray-600 {
-  color: #404040 !important;
-}
-
-.nx-text-gray-700 {
-  color: #262626 !important;
-}
-
 /* Remove navbar border */
 nav.nextra-nav-container,
 .nextra-nav-container {
